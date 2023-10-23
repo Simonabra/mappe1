@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Matte App</string>
+    <string name="startBtn">Start spill</string>
+    <string name="omSpilletBtn">Om spillet</string>
+    <string name="preferanserBtn">Preferanser</string>
+    <string name="norsk">Norsk</string>
+    <string name="tysk">Tysk</string>
+    <string name="regnestykker5">5 regnestykker</string>
+    <string name="regnestykker10">10 regnestykker</string>
+    <string name="regnestykker15">15 regnestykker</string>
+    <string name="spraak">Velg språk:</string>
+    <string name="velgSpill">Velg spill:</string>
+    <string name="omSpillet">Velkommen til matteopplæringsspillet! Her kan du lære deg å legge sammen tall på en morsom måte.
+        Du kan velge om du vil prøve 5, 10 eller 15 forskjellige regnestykker.
+        Skriv inn svarene ved å trykke på knappene.
+        Vi ønsker deg lykke til og ha det gøy!</string>
+    <string name="visNesteBtn">Vis neste regnestykket!</string>>
+    <string name="visNeste">Vis neste regnestykket!</string>
+    <string name="inputSvar">Ditt svar:</string>
+    <string name="slettBtn">Slett</string>
+    <string name="enterBtn">Svare</string>
+    <string-array name="regnestykker">
+        <item>4 + 7 = ?</item>
+        <item>3 + 2 = ?</item>
+        <item>5 + 5 = ?</item>
+        <item>8 + 9 = ?</item>
+        <item>6 + 1 = ?</item>
+        <item>1 + 10 = ?</item>
+        <item>2 + 5 = ?</item>
+        <item>9 + 4 = ?</item>
+        <item>7 + 7 = ?</item>
+        <item>2 + 6 = ?</item>
+        <item>9 + 9 = ?</item>
+        <item>6 + 7 = ?</item>
+        <item>8 + 7 = ?</item>
+        <item>1 + 5 = ?</item>
+        <item>4 + 5 = ?</item>
+    </string-array>
+    <string-array name="riktigeSvar">
+        <item>11</item>
+        <item>5</item>
+        <item>10</item>
+        <item>17</item>
+        <item>7</item>
+        <item>11</item>
+        <item>7</item>
+        <item>13</item>
+        <item>14</item>
+        <item>8</item>
+        <item>18</item>
+        <item>15</item>
+        <item>15</item>
+        <item>6</item>
+        <item>9</item>
+    </string-array>
+</resources>

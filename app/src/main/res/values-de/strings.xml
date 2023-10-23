@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Matte App</string>
+    <string name="startBtn">Spiel beginnen</string>
+    <string name="omSpilletBtn">Über das spiel</string>
+    <string name="preferanserBtn">Präferenzen</string>
+    <string name="spraak">Wähle deine sprache:</string>
+    <string name="norsk">Norwegisch</string>
+    <string name="tysk">Deutsch</string>
+    <string name="regnestykker5">5 berechnungen</string>
+    <string name="regnestykker10">10 berechnungen</string>
+    <string name="regnestykker15">15 berechnungen</string>
+    <string name="velgSpill">Spiel auswählen</string>
+    <string name="omSpillet">Willkommen beim Mathe-Lernspiel! Hier erfahren Sie,
+        wie Sie auf spielerische Weise Zahlen addieren. Sie können wählen, ob Sie 5,
+        10 oder 15 verschiedene Berechnungen ausprobieren möchten. Geben Sie die Antworten ein,
+        indem Sie die Tasten drücken. Wir wünschen Ihnen viel Glück und Spaß!</string>
+    <string name="visNesteBtn">Nächste berechnung anzeigen!</string>>
+    <string name="inputSvar">Deine antwort:</string>
+    <string name="slettBtn">Sinfach</string>
+    <string name="enterBtn">Antworten</string>
+    <string-array name="regnestykker">
+        <item>4 + 7 = ?</item>
+        <item>3 + 2 = ?</item>
+        <item>5 + 5 = ?</item>
+        <item>8 + 9 = ?</item>
+        <item>6 + 1 = ?</item>
+        <item>1 + 10 = ?</item>
+        <item>2 + 5 = ?</item>
+        <item>9 + 4 = ?</item>
+        <item>7 + 7 = ?</item>
+        <item>2 + 6 = ?</item>
+        <item>9 + 9 = ?</item>
+        <item>6 + 7 = ?</item>
+        <item>8 + 7 = ?</item>
+        <item>1 + 5 = ?</item>
+        <item>4 + 5 = ?</item>
+    </string-array>
+    <string name="visNeste">Zeigen Sie das nächste Stück Regen!</string>
+    <string-array name="svar">
+        <item>11</item>
+        <item>5</item>
+        <item>10</item>
+        <item>17</item>
+        <item>7</item>
+        <item>11</item>
+        <item>7</item>
+        <item>13</item>
+        <item>14</item>
+        <item>8</item>
+        <item>18</item>
+        <item>15</item>
+        <item>15</item>
+        <item>6</item>
+        <item>9</item>
+    </string-array>
+</resources>

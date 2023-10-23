@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartSpill">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#Fbb687"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/nesteRegnestykket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:id="@+id/inputSvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:text="@string/inputSvar"/>
+
+        <Button
+            android:id="@+id/visNesteBtn"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:backgroundTint="#E40B55"
+            android:text="@string/visNesteBtn" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_margin="0.7dp"
+                android:textSize="20sp"
+                android:backgroundTint="#E38B0A"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_margin="0.7dp"
+                android:textSize="20sp"
+                android:backgroundTint="#FF5722"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_margin="0.7dp"
+                android:textSize="20sp"
+                android:backgroundTint="#921AA6"
+                android:text="3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_margin="0.7dp"
+                android:textSize="20sp"
+                android:backgroundTint="#4D7E15"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_margin="0.7dp"
+                android:textSize="20sp"
+                android:backgroundTint="#0996D6"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_margin="0.7dp"
+                android:textSize="20sp"
+                android:backgroundTint="#F4A42E"
+                android:text="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_margin="0.7dp"
+                android:textSize="20sp"
+                android:backgroundTint="#FF5722"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_margin="0.7dp"
+                android:textSize="20sp"
+                android:backgroundTint="#3F51B5"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_margin="0.7dp"
+                android:textSize="20sp"
+                android:backgroundTint="#4D7E15"
+                android:text="9" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_margin="0.7dp"
+                android:textSize="20sp"
+                android:backgroundTint="#7645CC"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/slettBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_margin="0.7dp"
+                android:backgroundTint="#FB1E0E"
+                android:textSize="20sp"
+                android:text="@string/slettBtn" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/enterBtn"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_margin="0.7dp"
+            android:textSize="25sp"
+            android:backgroundTint="#41700B"
+            android:text="@string/enterBtn" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
