@@ -84,7 +84,6 @@ public class Preferanser extends AppCompatActivity {
         startSpillIntent.putExtra("valgt_preferanse", count);
         startActivity(startSpillIntent);
     }
-
 }
 
 
